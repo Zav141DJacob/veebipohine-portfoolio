@@ -3,10 +3,12 @@ import Header from "@/components/header/Header";
 
 const Template: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     return (
-        <div className="">
+        <div className="min-h-screen flex flex-col">
             {/* <ViewTransition/> */}
             <Header />
-            {children}
+            <div className="grow flex flex-col">
+                {children}
+            </div>
         </div>
     )
 }
