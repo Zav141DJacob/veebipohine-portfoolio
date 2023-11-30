@@ -1,24 +1,18 @@
 import Link from "next/link";
+import { Button } from "../button/Button";
 // About Me
 
 type Props = {
     children?: React.ReactNode;
     title?: string;
+    href?: string;
 }
-const HeaderItem: React.FC<Props> = ({ children, title }) => {
+const HeaderItem: React.FC<Props> = ({ children, title, href }) => {
     return (
-        <span className="px-3">
-            <span className="cursor-pointer">
-                {title ?
-                    <Link href={title?.toLowerCase().split(' ').join('-')}>
-                        {title}
-                        {children}
-                    </Link> :
-                    <span>
-                        {children}
-                    </span>}
-            </span>
-        </span>
+
+        <Button intent="clickable" href={href} className="mx-3">
+            {children}
+        </Button>
     )
 }
 

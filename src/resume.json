@@ -1,0 +1,211 @@
+{
+    "name": "Jaagup Tomingas",
+    "titles": ["Web Developer", "Full-Stack Developer", "Student"],
+    "contact": {
+        "email": "jaagup.tomingas@gmail.com",
+        "links": [
+            {
+                "name": "GitHub",
+                "url": "https://github.com/Zav141DJacob"
+            },
+            {
+                "name": "LinkedIn",
+                "url": "https://www.linkedin.com/in/jaagup-tomingas-460aa9224/"
+            },
+            {
+                "name": "Facebook",
+                "url": "https://www.facebook.com/jaag.tomi/"
+            }
+        ]
+    },
+    "profile": "Passionate to learn and participate in new experiences. Persistent to finish what I have started and never giving up.",
+    "skills": [
+        "C++", 
+        "JavaScript", 
+        "TypeScript", 
+        "ReactJS", 
+        "VueJS", 
+        "Golang", 
+        "AstroJS", 
+        "Rust", 
+        "PHP", 
+        "Laravel", 
+        "TailwindCSS"
+    ],
+    "employment": [
+        {
+            "position": "Frontend Developer",
+            "company": {
+                "name": "MindSee OÜ",
+                "url": "https://minds.ee/"
+            },
+            "startDate": "Jun 2023",
+            "endDate": "Dec 2023"
+        },
+        {
+            "position": "Technical Support",
+            "company": {
+                "name": "kood/Jõhvi",
+                "url": "https://kood.tech/"
+            },
+            "startDate": "Jul 2023"
+        },
+        {
+            "position": "Full-Stack Internship",
+            "company": {
+                "name": "Proekspert AS",
+                "url": "https://proekspert.com/"
+            },
+            "startDate": "Sep 2022",
+            "endDate": "Oct 2022",
+            "mentor": {
+                "name": "Sven Kanošin",
+                "email": "sven.kanosin@proekspert.ee",
+                "role": "Software Engineer - Tallinn",
+                "url": "https://www.linkedin.com/in/sven-kano%C5%A1in-b74030269/"
+            }
+        },
+        {
+            "position": "Store Clerk",
+            "company": {
+                "name": "Maxima OÜ",
+                "url": "https://www.maxima.ee/"
+            },
+            "startDate": "Mar 2021",
+            "endDate": "Jul 2021"
+        }
+    ],
+    "education": [
+        {
+            "institution": {
+                "name": "kood/Jõhvi",
+                "url": "https://kood.tech/"
+            },
+            "startDate": "2021",
+            "endDate": "2023"
+        },
+        {
+            "institution": {
+                "name": "Tallinna Mustamäe gümnaasium",
+                "url": "https://mg.edu.ee/"
+            },
+            "degree": "middle school",
+            "startDate": "2008",
+            "endDate": "2017"
+        }
+    ],
+    "courses": [
+        {
+            "name": "Basic Laravel Course",
+            "provider": {
+                "name": "Laracast",
+                "url": "https://laracasts.com/series/laravel-8-from-scratch"
+            },
+            "startDate": "Jun 2023"
+        },
+        {
+            "name": "Basic Programming Course (C++)",
+            "provider": {
+                "name": "Tartu Ülikool (teaduskool)",
+                "url": "https://moodle.ut.ee/enrol/index.php?id=443"
+            },
+            "startDate": "Oct 2016",
+            "endDate": "Jun 2017"
+        }
+    ],
+    "projects": [
+        {
+            "name": "MindSee Webpage",
+            "url": "https://minds.ee/",
+            "skills": ["AstroJS", "ReactJS", "TypeScript", "TailwindCSS"],
+            "startDate": "Jun 2023",
+            "endDate": "Dec 2023"
+        },
+        {
+            "name": "Volleyball Training Webpage",
+            "url": "https://volleyball.ee/",
+            "skills": ["Golang", "ReactJS", "TypeScript"],
+            "startDate": "Jan 2023",
+            "endDate": "Oct 2023"
+        },
+        {
+            "name": "‘Who wants to be a millionaire?’ web game",
+            "url": "https://github.com/Zav141DJacob/mister-quiz",
+            "skills": ["PHP", "Laravel"],
+            "startDate": "Jun 2023"
+        },
+        {
+            "name": "Multiplayer First Person Shooter game",
+            "skills": ["Rust"],
+            "url": "https://github.com/Zav141DJacob/multiplayer-fps",
+            "startDate": "Mar 2023"
+        },
+        {
+            "name": "Ray Tracing software",
+            "skills": ["Rust"],
+            "url": "https://github.com/Zav141DJacob/raytracing-rust",
+            "startDate": "Feb 2023"
+        },
+        {
+            "name": "Bomberman game",
+            "skills": ["Golang", "ReactJS", "TypeScript"],
+            "url": "https://github.com/Zav141DJacob/bomberman-dom",
+            "startDate": "Dec 2022"
+        },
+        {
+            "name": "Facebook-like social network page",
+            "skills": ["Golang", "ReactJS", "JavaScript"],
+            "url": "https://github.com/Zav141DJacob/social-network",
+            "startDate": "Oct 2022"
+        },
+        {
+            "name": "Brick breaker game",
+            "skills": ["Golang", "JavaScript"],
+            "url": "https://github.com/Zav141DJacob/brick-breaker",
+            "startDate": "Mar 2022"
+        },
+        {
+            "name": "ATM Management System",
+            "skills": ["C++"],
+            "url": "https://github.com/Zav141DJacob/atm-management-system",
+            "startDate": "Nov 2021"
+        }
+    ],
+    "hackathons": [
+        {
+            "name": "Junction in Finland",
+            "startDate": "Nov 2023"
+        },
+        {
+            "name": "Wise x kood/Jõhvi hackathon",
+            "startDate": "Jun 2023"
+        },
+        {
+            "name": "CodeX in Latvia",
+            "startDate": "Jun 2023",
+            "achievement": "Our 5-person team won the challenge and were awarded prizes."
+        },
+        {
+            "name": "kood/Jõhvi Cybersecurity hackathon",
+            "startDate": "Apr 2023"
+        },
+        {
+            "name": "Bondora x kood/Jõhvi hackathon",
+            "startDate": "Mar 2023"
+        },
+        {
+            "name": "SEB x kood/Jõhvi hackathon",
+            "startDate": "Oct 2022"
+        },
+        {
+            "name": "CodeX in Latvia",
+            "startDate": "Jun 2022"
+        }
+    ],
+    "hobbies": [
+        "Playing the guitar for around 8 years",
+        "Studying guitar under a teacher",
+        "Passionate about boxing and training on and off for many years",
+        "Playing video games as a way to relax and take my mind off things"
+    ]
+}

@@ -8,12 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      animation: {
+        'spin-fast': 'spin 0.25s linear infinite',
+      },
       colors: {
         bg1: '#FFFFFF',
         bg2: 'rgb(242, 242, 247)',
         border1: '#E5E7EB',
         icon1: '#',
-        iconHover: 'rgb(56, 178, 172)'
+        hoverBtn: 'rgb(56, 178, 172)'
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
