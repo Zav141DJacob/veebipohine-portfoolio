@@ -14,7 +14,7 @@ const Page = () => {
 
                 <p>{"I have also participated in different hobbies, such as fencing, chess, robotics, guitar, piano, choir singing, karate, thai-boxing and more. Currently I am still learning the guitar and join boxing sessions from time to time"}</p>
                 
-                <p>{"Thank you for considering my application. I'm excited about the possibility of joining Pipedrive and contributing to its success. I look forward to the opportunity to discuss my qualifications further."}</p>
+                <p>{"Thank you for considering my application. I look forward to the opportunity to discuss my qualifications further."}</p>
                 
                 <p>{"Thank you for your time, and I hope to hear from you soon!"}</p>
                 
