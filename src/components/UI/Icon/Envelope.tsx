@@ -1,6 +1,6 @@
-import { IconType } from "./Icon";
+import { IconType } from ".";
 
-const Envelope: IconType = ({ width, height }) => {
+export const Envelope: IconType = ({ width, height }) => {
   return (
     <svg
       width={width}
@@ -19,5 +19,3 @@ const Envelope: IconType = ({ width, height }) => {
     </svg>
   );
 };
-
-export default Envelope;

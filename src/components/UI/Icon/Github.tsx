@@ -1,6 +1,6 @@
-import { IconType } from "./Icon";
+import { IconType } from ".";
 
-const Github: IconType = ({ width, height }) => {
+export const Github: IconType = ({ width, height }) => {
   return (
     <svg
       width={width}
@@ -14,5 +14,3 @@ const Github: IconType = ({ width, height }) => {
     </svg>
   );
 };
-
-export default Github;

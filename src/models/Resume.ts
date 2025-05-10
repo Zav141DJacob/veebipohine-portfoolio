@@ -1,4 +1,4 @@
-import { IconName } from "@/components/icon/Icon";
+import { IconName } from "@/components/UI/Icon";
 import { Course } from "./Course";
 import { Education } from "./Education";
 import { Employment } from "./Employment";

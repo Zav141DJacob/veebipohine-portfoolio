@@ -1,6 +1,6 @@
-import { IconType } from "./Icon";
+import { IconType } from ".";
 
-const User: IconType = ({ width, height }) => {
+export const User: IconType = ({ width, height }) => {
   return (
     <svg
       width={width}
@@ -20,5 +20,3 @@ const User: IconType = ({ width, height }) => {
     </svg>
   );
 };
-
-export default User;

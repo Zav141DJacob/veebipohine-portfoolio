@@ -1,6 +1,6 @@
-import { IconType } from "./Icon";
+import { IconType } from ".";
 
-const Linkedin: IconType = ({ width, height }) => {
+export const Linkedin: IconType = ({ width, height }) => {
   return (
     <svg
       width={width}
@@ -14,5 +14,3 @@ const Linkedin: IconType = ({ width, height }) => {
     </svg>
   );
 };
-
-export default Linkedin;

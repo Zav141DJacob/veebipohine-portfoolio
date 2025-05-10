@@ -1,6 +1,6 @@
-import { IconType } from "./Icon";
+import { IconType } from ".";
 
-const HamburgerMenu: IconType = ({ width, height }) => {
+export const HamburgerMenu: IconType = ({ width, height }) => {
   return (
     <svg
       width={width}
@@ -14,5 +14,3 @@ const HamburgerMenu: IconType = ({ width, height }) => {
     </svg>
   );
 };
-
-export default HamburgerMenu;

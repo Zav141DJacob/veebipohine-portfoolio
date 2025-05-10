@@ -1,6 +1,6 @@
-import { IconType } from "./Icon";
+import { IconType } from ".";
 
-const Facebook: IconType = ({ width, height }) => {
+export const Facebook: IconType = ({ width, height }) => {
   return (
     <svg
       width={width}
@@ -14,5 +14,3 @@ const Facebook: IconType = ({ width, height }) => {
     </svg>
   );
 };
-
-export default Facebook;

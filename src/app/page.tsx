@@ -1,8 +1,8 @@
 "use client";
 
-import { Button } from "@/components/button/Button";
+import { Button } from "@UI";
 import Card from "@/components/card/Card";
-import Icon, { IconName } from "@/components/icon/Icon";
+import Icon, { IconName } from "@/components/UI/Icon";
 import ResumeSection from "@/components/resume-section/ResumeSection";
 import Image from "next/image";
 import { LinkName, Resume } from "@/models/Resume";

@@ -1,10 +1,10 @@
 import { LinkName } from "@/models/Resume";
-import Envelope from "./Envelope";
-import Facebook from "./Facebook";
-import Github from "./Github";
-import HamburgerMenu from "./HamburgerMenu";
-import Linkedin from "./Linkedin";
-import User from "./User";
+import { Envelope } from "./Envelope";
+import { Facebook } from "./Facebook";
+import { Github } from "./Github";
+import { HamburgerMenu } from "./HamburgerMenu";
+import { Linkedin } from "./Linkedin";
+import { User } from "./User";
 
 export type IconType = React.FC<{ width?: number; height?: number }>;
 
