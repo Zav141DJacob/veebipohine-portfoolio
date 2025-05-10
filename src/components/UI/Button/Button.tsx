@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React, { MouseEventHandler } from "react";
 import { cva, type VariantProps } from "class-variance-authority";
 import Link from "next/link";
@@ -6,11 +6,8 @@ import Link from "next/link";
 const button = cva("transition-all duration-300", {
   variants: {
     intent: {
-      primary: [
-      ],
-      clickable: [
-        "hover:text-hoverBtn",
-      ]
+      primary: [],
+      clickable: ["text-start", "hover:text-hoverBtn"],
     },
     size: {
       none: [],
@@ -28,7 +25,7 @@ const button = cva("transition-all duration-300", {
 
 export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement>,
-  VariantProps<typeof button> {
+    VariantProps<typeof button> {
   onClick?: MouseEventHandler<HTMLButtonElement>;
   href?: string;
 }
@@ -40,6 +37,15 @@ export const Button: React.FC<ButtonProps> = ({
   onClick,
   href,
   ...props
-}) => href ?
-    <Link href={href} className={button({ intent, size, className })}>{props.children}</Link> :
-    <button onClick={onClick} className={button({ intent, size, className })} {...props} />;
+}) =>
+  href ? (
+    <Link href={href} className={button({ intent, size, className })}>
+      {props.children}
+    </Link>
+  ) : (
+    <button
+      onClick={onClick}
+      className={button({ intent, size, className })}
+      {...props}
+    />
+  );
